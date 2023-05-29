@@ -1,0 +1,234 @@
+/**ARCHIVO 1: INDEX**/
+
+body {
+    font-family: 'Belleza', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-color:white;
+    
+}
+/** HEADER**/
+
+header { display: flex;
+    justify-content: space-between;
+    background-color:rgb(144, 190, 162)
+}
+.LogoCasaZana {
+                height: 90px;
+                width: 90px;
+                margin-left: 60px;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            
+}
+.navegacionPrincipal {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-right: 60px;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color:#000000;
+    font-weight: bold;
+    padding-left:5px;
+}
+/**SECTION**/
+
+section {
+    display: flex;
+    
+}
+
+h1 {
+    font-size: 3.9rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    text-align:left;
+    margin-left: 60px;
+    margin-top: 80px;
+    
+}
+h2 {
+        font-size: 1.8rem;
+        color: #000000;
+        font-style:italic;
+        text-align:left;
+        margin-left: 60px;
+        margin-right: 60px;
+        
+
+}
+
+.ImagenLocal {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+p {
+    color:#000000;
+    font-size: 1.5rem;
+    text-align:center;
+    margin-top: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/**FOOTER**/
+
+.footer {
+    background-color: rgb(144, 190, 162);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Redes {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-align:left;
+    margin-top: 35px;
+    margin-left: 60px;
+    }
+.Iconos {
+    margin-top: 25px;
+    margin-right: 60px;
+
+}
+
+/**ARCHIVO 2: CONTACTO**/
+
+#NombrePaginas {
+    font-size: 3rem;
+    color: #000000;
+    font-weight: bold;
+    text-align:center;
+    margin-top: 35px;
+}
+#contactanos {
+    font-size: 2rem;
+    margin-left: 10px;
+    text-align: left;
+}
+
+#parrafo {
+    margin-left: 10px;
+    text-align:left;
+}
+#listaContacto {
+    margin-left: 60px;
+}
+#mapa {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 120px;
+    margin-top: 30px;
+    width: 300px;
+   
+    
+}
+#field {
+    padding: 30px;
+    width: 480px;
+    padding-top: 30px;
+    
+    
+}
+label { 
+   margin-top: 20px;
+   margin-bottom:10px;
+   margin-left: 10px;
+}
+
+#contenedor {
+    background-color:white;
+    font-size: 1rem
+
+}    
+
+#nombreContenedores {
+    color:#000000;
+    font-size: 1.5rem;
+    text-align:left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#textarea {
+    color:#000000;
+    font-size: 1.5rem;
+    text-align:left;
+    padding: 30px;
+    width: 480px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+#boton {
+    background-color: rgb(144, 190, 162);
+    font-size: 1rem;
+    padding: 10px;
+    width: 540px;
+    padding-top: 10px;
+    text-align: center;
+}
+/**ARCHIVO 3: PRODUCTOS**/
+
+#productos {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+#imagenesProductos {
+    width: 400px;
+    height: 550px;
+    padding: 15px;
+    
+}
+#fotos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-bottom: 50px;
+
+
+}
+/**ARCHIVO 4: MEDIOS DE PAGO**/
+
+.CuentaDni{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#pagaComoQuieras {
+    font-size: 2rem;
+    margin-left: 0px;
+    text-align:left;
+}
+#listaMediosDePago {
+    margin-right: 160px;
+}
+#pedido {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 100px;
+    }
